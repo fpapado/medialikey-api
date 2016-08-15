@@ -25,8 +25,8 @@ module MedialikeyApi
 
     config.middleware.insert_before 0, "Rack::Cors" do
       allow do
-        origins 'localhost:4200', '127.0.0.1:4200', 'localhost:8080'
-        resource '*', :headers => :any, :methods =>  [ :options ]
+        origins '*'
+        resource '*', :headers => :any, :methods =>  [ :get, :post, :options ]
       end
     end
   end
