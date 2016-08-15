@@ -68,6 +68,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
+    puma (3.6.0)
     rack (1.6.4)
     rack-cors (0.4.0)
     rack-test (0.6.3)
@@ -138,6 +139,7 @@ DEPENDENCIES
   byebug
   jbuilder (~> 2.0)
   jsonapi-resources
+  puma
   rack-cors
   rails (= 4.2.7)
   sass-rails (~> 5.0)
